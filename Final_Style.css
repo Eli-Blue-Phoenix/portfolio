@@ -1,0 +1,57 @@
+p {
+    font-family: 'Jacques Francois', serif;
+}
+body{
+    background-color: black;
+    color: #87E9FF;
+    font-family: 'Limelight', sans-serif;
+    text-align: center;
+    height: 100vh;
+    font-size: x-large;
+}
+.container {
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.fire {
+    width: 100%;
+    height: auto;
+}
+a:link {
+    color: #87E9FF; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  header {
+    transform: rotate(180deg);
+  }
+
+  .portfolio {
+    height: 500px;
+  }
+
+  .images {
+    width: 100%;
+    height: auto;
+  }
